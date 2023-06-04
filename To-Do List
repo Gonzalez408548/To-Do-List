@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>To-Do App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<h1>To-Do App</h1>
+<input type="text" id="newTodo">
+<button id="addTodo">Add Todo</button>
+<ul id="todos"></ul>
+<button id="delete">Delete</button>
+<button id="search">Search</button>
+<select id="sort">
+<option value="priority">Sort by Priority</option>
+<option value="dueDate">Sort by Due Date</option>
+<option value="completionStatus">Sort by Completion Status</option>
+</select>
+<button id="export">Export</button>
+<button id="import">Import</button>
+<button id="setReminder">Set Reminder</button>
+<button id="createSubtask">Create Subtask</button>
+<button id="collaborate">Collaborate</button>
+<button id="startTimer">Start Timer</button>
+<button id="stopTimer">Stop Timer</button>
+<div id="timer"></div>
+<input type="date" id="dueDate">
+<input type="checkbox" id="darkMode"> Dark Mode
+<ul id="helpMenu">
+  <li><a href="#">How to use the to-do app</a></li>
+  <li><a href="#">Keyboard shortcuts</a></li>
+  <li><a href="#">Dark mode</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
